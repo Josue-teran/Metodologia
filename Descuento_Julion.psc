@@ -10,9 +10,11 @@ Algoritmo Descuento_Julion
 	leer Boletos; 
 	
 	Definir des Como Real
+	des <- Boletos* 0.3;
+	Total <- Boletos - des;
 	
 	Escribir "En la compra de su boleto obtiene 30% de descuento";
-	Escribir "Total a pagar:"
+	Escribir "Total a pagar:", Total;
 	
 	
 FinAlgoritmo
